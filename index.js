@@ -22,7 +22,14 @@ function addNumbers(num1, num2) {
 // 👇 COMPLETE YOUR WORK BELOW 👇
 // 👇 COMPLETE YOUR WORK BELOW 👇
 // 👇 COMPLETE YOUR WORK BELOW 👇
+// const person = new Object();
+// person.id = 5;
+// person.name = Leia;
+// person.email = leia@leia.com;
+// return person;
 
+// console.log(makePersonObject);
+// }
 /**
  * ### Challenge `makePersonObject`
  * 
@@ -39,10 +46,17 @@ function addNumbers(num1, num2) {
  *   email: "leia@leia.com",
  * }
 */
-function makePersonObject(param1,param2,param3) {
-  return `param1`+`param2`+`param3` ;
-  console.log(makePersonObject);
+function makePersonObject(id,name,email) {
+  const person = {
+    id: 5,
+    name: 'zack',
+    email:'zacksemail@awesome.com'
+    }
+  }
+  
+  console.log(person(5,zack,@z));
 }
+ 
 
 /**
  * ### Challenge `getName`
